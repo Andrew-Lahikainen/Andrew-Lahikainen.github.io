@@ -1,0 +1,122 @@
+.content-grid {
+  max-width: 960px;
+}
+.fp-background {
+  background-color:#ecf0f1;
+}
+.fp-background .mdl-layout__header, .fp-background .mdl-navigation__link {
+  color:#fff;
+}
+.fp-background .fp-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 5em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.fp-portrait {
+	width: 270px;
+	height: 270px;
+	border-radius: 135px;
+	-webkit-border-radius: 135px;
+	-moz-border-radius: 150px;
+	background: url("/assets/images/Self.png")  no-repeat;
+  background-position: 50% 25%;
+  padding: 0;
+}
+.fp-title-small {
+  display: none;
+}
+@media only screen and (max-width: 1025px) {
+  .fp-portrait {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    background: url("/assets/images/Self.png")  no-repeat;
+    background-position: 50% 25%;
+    background-size: 100%;
+    padding: 0;
+  }
+  .fp-background .fp-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    padding-left:0.5em;
+  }
+  .fp-title-small {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #fff;
+    display: block;
+  }
+}
+.fp-card-wide.mdl-card {
+  width: auto;
+}
+.fp-card-wide > .mdl-card__title {
+  color: #000;
+  font-weight: 900;
+  height: 30%; 
+}
+.fp-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+.fp-work {
+  background: url("/assets/images/work.jpg") 100% 80% / cover;
+}
+.fp-skills {
+  background: url("/assets/images/skills.jpg") 100% 60% / cover;
+}
+.mdl-layout__header {
+  background-color: #009688;
+}
+.facebook {
+  background-color: #43609C;
+}
+.facebook:hover {
+  background-color: #5D7AB6;
+}
+.github {
+  background-color: #323131;
+}
+.github:hover {
+  background-color: #4C4B4B;
+}
+.linkedin {
+ background-color: #0074B2; 
+}
+.linkedin:hover {
+  background-color: #1A8ECC;
+}
+.twitter {
+  background-color: #55ACEE;
+}
+.twitter:hover {
+  background-color: #6FC6FF;
+}
+.bootstrap {
+  background-color: #5C4383;
+  color: #fff;
+}
+.bootstrap:hover {
+  background-color: #5C4383;
+  cursor: default;
+}
+.no-padding {
+  padding: 0 0 0 0;
+}
+.fp-icon {
+  width: 40px;
+  height: 40px;
+}
+.nodejs {
+  background-color: #7FBD42;
+}
+.nodejs:hover {
+  background-color: #7FBD42;
+  cursor: default;
+}
+.fp-mobile-header {
+  background-color: #009688;
+}
